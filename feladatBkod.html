@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="FeladatBformaz.css" />
+    <title>FeladatBkod</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <a class="nav-item nav-link" href="feladatB.html">FeladatB</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-align:center">Buborékos Rendezés</h1>
+            </div>
+            <div class="col-md-6">
+                <pre>
+                    using System;
+                    using System.Collections.Generic;
+                    using System.Globalization;
+                    using System.Linq;
+                    using System.Runtime.InteropServices;
+                    using System.Text;
+                    using System.Threading.Tasks;
+                    
+                    namespace buborekos_rendezes
+                    {
+                        internal class Program
+                        {
+                            static void Main(string[] args)
+                            {
+                                Random r = new Random(); int i, j, b;
+                    
+                                int[] letsz = new int[14];
+                                for ( i = 0; i<14;i++)
+                                {
+                                    letsz[i] = r.Next(450, 601);
+                                }
+                    
+                                Console.WriteLine("A 14 iskola létszámai: ");
+                    
+                                for ( i = 0; i < letsz.Length; i++)
+                                {
+                                    Console.Write(letsz[i] + " ");
+                                }
+                    
+                                Console.WriteLine();
+                    
+                                for (i = 13; i >= 1; i--)
+                                {
+                                    for (j = 0; j <= i - 1; j++)
+                                    {
+                                        if (letsz[j] > letsz[j+1])
+                                        {
+                                            b= letsz[j];
+                                            letsz[j] = letsz[j + 1];
+                                            letsz[j + 1] = b;
+                                        }
+                                    }
+                                }
+                    
+                                Console.WriteLine("\nA 14 iskola létszámai, buborékos rendezéssel: ");
+                    
+                                for (i = 0; i < letsz.Length; i++)
+                                {
+                                    Console.Write(letsz[i] + " ");
+                                }
+                    
+                    
+                                Console.WriteLine();
+                                Console.ReadKey();
+                            }
+                        }
+                    }
+                    </pre>
+            </div>
+            <div class="col-md-6">
+                <img src="futasi.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

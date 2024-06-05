@@ -1,0 +1,234 @@
+body
+{
+    background-color: rgb(50, 50, 50);
+    color: #D4D4D4;
+    font-family: Cascadia Mono, Cascade Mono;
+}
+
+::-webkit-scrollbar 
+{
+    width: 5px;
+}
+  
+::-webkit-scrollbar-track 
+{
+    background: rgb(50, 50, 50); 
+}
+   
+
+::-webkit-scrollbar-thumb 
+{
+    background: green; 
+}
+  
+::-webkit-scrollbar-thumb:hover 
+{
+    background: green; 
+}
+
+main, footer, section
+{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+header
+{
+    border-bottom: 2px solid black;
+    background-color: green;
+    width: 100%;
+}
+
+h2
+{
+    font-size: 32px;
+}
+
+#beljebb
+{
+    margin-left: 2rem;
+}
+
+p
+{
+    text-align: justify;
+}
+
+#keretezett
+{
+    border: 1px solid green;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.jobbvonal
+{
+    border-right: 1px solid green;
+}
+
+.algodes
+{
+    margin-bottom: 10px;
+}
+
+.algodes:hover
+{
+    transform: translateX(0.25em);
+    box-shadow: 2px -2px 5px #D4D4D4;
+}
+
+/*.keretesszoveg
+{
+    border: 1px solid green;
+    padding: 10px;
+}*/
+
+a
+{
+    color: #D4D4D4;
+}
+
+a:hover
+{
+    color: #D4D4D4;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 0.5em 0.5em -0.4em #D4D4D4;
+}
+
+.lablecresz
+{
+    border-top: 2px solid green;
+    padding-top: 0.2rem;
+}
+
+ul
+{
+    text-align: center;
+}
+
+#lablec > li
+{
+    display: inline;
+    margin-right: 0.2rem;
+}
+
+#lapozo
+{
+    text-align: center;
+}
+
+#lapozo > p
+{
+    font-size: 30px;
+    display: inline;
+}
+
+#visszaafore
+{
+    font-size: 2rem;
+    text-align: right;
+}
+
+.szovegmegjelen
+{
+    display: inline;
+}
+
+@media (max-width: 800px)
+{
+    img
+    {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    p
+    {
+        font-size: 20px;
+    }
+
+    button
+    {
+        font-size: 15px;
+    }
+
+    p
+    {
+        text-align: left;
+    }
+
+    .jobbvonal
+    {
+        display: none;
+    }
+
+    #keretezett
+    {
+        border: none;
+        padding: 0;
+    }
+
+    #alsovonalkell
+    {
+        border-bottom: 1px solid green;
+    }
+
+    #beljebb
+    {
+        margin-left: auto;
+    }
+
+    ul
+    {
+        padding-left: 0;
+    }
+
+    h4
+    {
+        text-align: center;
+    }
+
+    a
+    {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 801px)
+{
+    .adottpontigkell
+    {
+        display: none;
+    }
+
+    .algodes
+    {
+        width: 150px;
+        margin-left: 23px;
+        font-size: 15px;
+    }
+
+    .jobbvonal
+    {
+        border-right: none;
+    }
+
+    .col-md-9
+    {
+        max-height: 650px;
+    }
+}
+
+@media (min-width: 1000px)
+{
+    .jobbvonal
+    {
+        border-right: 1px solid green;
+    }
+
+    .col-md-9
+    {
+        max-height: 650px;
+    }
+}

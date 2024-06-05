@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minta feladat</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="feladatAformaz.css">
+</head>
+<body>
+    <!--Fejléc-->
+    <header class="mb-3">
+        <nav class="navbar navbar-expand-sm">
+            <h1 id="brand" class="navbar-brand">Rendezési algoritmusok</h1>
+            <div class="collapse navbar-collapse">
+                <div class="navbar-nav">
+                    <a href="feladatA.html" class="nav-link nav-item">Vissza a főoldalra</a>
+                </div>
+            </div>    
+        </nav>
+    </header>
+
+    <!--Főrész-->
+    <main class="container-fluid">
+        <h1>Feladat:</h1>
+        <p>Jelenítsen meg 13 nap hőmérsékletét (10-30 közötti véletlen) egy tömbben tárolva. A napok hőmérsékletének kiírása eredeti sorrendben ill. rendezetten egyszerű cserés rendezés algoritmussal jelenjen meg (a megoldás képei csak egyszer láthatóak frissítésig).</p>
+        <button id="feladatmegoldas" class="mb-3">Mutasd a megoldást!</button>
+        <div id="lapozo">
+            <span id="contentdoboz"></span>
+        </div>
+        <div id="resetgomb" class="mt-3 mb-3 text-center">
+            <button id="reset">Oldal visszaállítása</button>
+        </div>
+    </main>
+
+    <!--Lábléc-->
+    <footer class="container-fluid">
+        <p id="visszaafore"><a href="feladatA.html">&lAarr;</a></p>
+    </footer>
+    <script src="feladatAfeldolgoz2.js"></script>
+</body>
+</html>
