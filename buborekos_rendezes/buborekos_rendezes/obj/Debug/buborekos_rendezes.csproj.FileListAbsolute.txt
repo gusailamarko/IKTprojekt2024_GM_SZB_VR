@@ -1,0 +1,8 @@
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\obj\Debug\buborekos_rendezes.csproj.AssemblyReference.cache
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\obj\Debug\buborekos_rendezes.csproj.SuggestedBindingRedirects.cache
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\obj\Debug\buborekos_rendezes.csproj.CoreCompileInputs.cache
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\bin\Debug\buborekos_rendezes.exe.config
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\bin\Debug\buborekos_rendezes.exe
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\bin\Debug\buborekos_rendezes.pdb
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\obj\Debug\buborekos_rendezes.exe
+C:\Users\ALT_n\Desktop\SzabóBence12D\buborekos_rendezes\buborekos_rendezes\obj\Debug\buborekos_rendezes.pdb

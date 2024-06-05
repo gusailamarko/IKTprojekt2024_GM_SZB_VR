@@ -1,0 +1,8 @@
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\bin\Debug\FeladatAKod.exe.config
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\bin\Debug\FeladatAKod.exe
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\bin\Debug\FeladatAKod.pdb
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\obj\Debug\FeladatAKod.csproj.AssemblyReference.cache
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\obj\Debug\FeladatAKod.csproj.SuggestedBindingRedirects.cache
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\obj\Debug\FeladatAKod.csproj.CoreCompileInputs.cache
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\obj\Debug\FeladatAKod.exe
+C:\Users\Gusaila Márkó\Documents\Studies and E.L\Others (specifikusabb)\Web development (VSC)\Projects\GusailaMárkó_12D_A\FeladatAKod\FeladatAKod\obj\Debug\FeladatAKod.pdb
